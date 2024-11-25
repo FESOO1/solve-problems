@@ -14,8 +14,19 @@
 }
 
 .sp-header {
-    width: 650px;
+    width: 750px;
+    font-weight: 600;
     color: white;
-    font-weight: 300;
     text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+
+/* SP CONTAINER INPUT */
+
+.sp-container-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
