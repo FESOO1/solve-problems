@@ -199,7 +199,6 @@
 }
 
 .sp-output-itself-info-language-itself {
-    color: white;
     font-weight: 500;
 }
 
@@ -207,11 +206,11 @@
     color: #E34F26;
 }
 
-.sp-output-itself-info-language-html {
+.sp-output-itself-info-language-css {
     color: #1572B6;
 }
 
-.sp-output-itself-info-language-html {
+.sp-output-itself-info-language-javascript {
     color: #F7DF1E;
 }
 
