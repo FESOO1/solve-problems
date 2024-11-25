@@ -15,7 +15,11 @@
     border-top: 1px solid rgb(100,100,100);
 }
 
-/* SP CONTAINER INPUT */
+/*  
+
+   SP INPUT
+
+*/
 
 .sp-container-input {
     display: flex;
@@ -85,4 +89,14 @@
     text-align: center;
     line-height: 45px;
     text-transform: uppercase;
+}
+
+/*  
+
+   SP OUTPUT
+
+*/
+
+.output {
+
 }
