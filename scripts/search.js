@@ -10,9 +10,6 @@ function searchFunction(e) {
     
 };
 
-
-
-console.log(result);
 // BUTTON INITIALIZE
 
 searchButton.addEventListener('click', searchFunction);
