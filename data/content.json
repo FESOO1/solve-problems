@@ -5,9 +5,10 @@
       "shortDescription": "A simple app to manage daily tasks with add, edit, and delete functionalities.",
       "detailedDescription": "This challenge involves creating a Todo List app where users can add tasks, edit existing ones, mark them as completed, and delete tasks. It helps practice DOM manipulation and event handling in JavaScript.",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "image": "../assets/challenges/challenge-one.png",
+      "image": "../assets/challenges/todo-list.jpg",
       "GitHub": "https://github.com/yourusername/todo-list",
-      "liveWebsite": "https://yourusername.github.io/todo-list/"
+      "liveWebsite": "https://yourusername.github.io/todo-list/",
+      "HTMLLink": "https://yourusername.github.io/todo-list/index.html"
     },
     {
       "name": "Counter",
@@ -17,7 +18,8 @@
       "languages": ["HTML", "CSS", "JavaScript"],
       "image": "../assets/challenges/counter.jpg",
       "GitHub": "https://github.com/yourusername/counter",
-      "liveWebsite": "https://yourusername.github.io/counter/"
+      "liveWebsite": "https://yourusername.github.io/counter/",
+      "HTMLLink": "https://yourusername.github.io/counter/index.html"
     },
     {
       "name": "Calculator",
@@ -27,7 +29,8 @@
       "languages": ["HTML", "CSS", "JavaScript"],
       "image": "../assets/challenges/calculator.jpg",
       "GitHub": "https://github.com/yourusername/calculator",
-      "liveWebsite": "https://yourusername.github.io/calculator/"
+      "liveWebsite": "https://yourusername.github.io/calculator/",
+      "HTMLLink": "https://yourusername.github.io/calculator/index.html"
     },
     {
       "name": "Weather App",
@@ -37,7 +40,8 @@
       "languages": ["HTML", "CSS", "JavaScript"],
       "image": "../assets/challenges/weather-app.jpg",
       "GitHub": "https://github.com/yourusername/weather-app",
-      "liveWebsite": "https://yourusername.github.io/weather-app/"
+      "liveWebsite": "https://yourusername.github.io/weather-app/",
+      "HTMLLink": "https://yourusername.github.io/weather-app/index.html"
     },
     {
       "name": "Quiz App",
@@ -47,7 +51,8 @@
       "languages": ["HTML", "CSS", "JavaScript"],
       "image": "../assets/challenges/quiz-app.jpg",
       "GitHub": "https://github.com/yourusername/quiz-app",
-      "liveWebsite": "https://yourusername.github.io/quiz-app/"
+      "liveWebsite": "https://yourusername.github.io/quiz-app/",
+      "HTMLLink": "https://yourusername.github.io/quiz-app/index.html"
     },
     {
       "name": "Portfolio Website",
@@ -57,7 +62,8 @@
       "languages": ["HTML", "CSS"],
       "image": "../assets/challenges/portfolio-website.jpg",
       "GitHub": "https://github.com/yourusername/portfolio-website",
-      "liveWebsite": "https://yourusername.github.io/portfolio-website/"
+      "liveWebsite": "https://yourusername.github.io/portfolio-website/",
+      "HTMLLink": "https://yourusername.github.io/portfolio-website/index.html"
     },
     {
       "name": "Clock",
@@ -67,7 +73,8 @@
       "languages": ["HTML", "CSS", "JavaScript"],
       "image": "../assets/challenges/clock.jpg",
       "GitHub": "https://github.com/yourusername/clock",
-      "liveWebsite": "https://yourusername.github.io/clock/"
+      "liveWebsite": "https://yourusername.github.io/clock/",
+      "HTMLLink": "https://yourusername.github.io/clock/index.html"
     },
     {
       "name": "Random Quote Generator",
@@ -77,7 +84,8 @@
       "languages": ["HTML", "CSS", "JavaScript"],
       "image": "../assets/challenges/quote-generator.jpg",
       "GitHub": "https://github.com/yourusername/quote-generator",
-      "liveWebsite": "https://yourusername.github.io/quote-generator/"
+      "liveWebsite": "https://yourusername.github.io/quote-generator/",
+      "HTMLLink": "https://yourusername.github.io/quote-generator/index.html"
     },
     {
       "name": "Image Slider",
@@ -87,7 +95,8 @@
       "languages": ["HTML", "CSS", "JavaScript"],
       "image": "../assets/challenges/image-slider.jpg",
       "GitHub": "https://github.com/yourusername/image-slider",
-      "liveWebsite": "https://yourusername.github.io/image-slider/"
+      "liveWebsite": "https://yourusername.github.io/image-slider/",
+      "HTMLLink": "https://yourusername.github.io/image-slider/index.html"
     },
     {
       "name": "React Counter",
@@ -97,6 +106,8 @@
       "languages": ["React", "JavaScript"],
       "image": "../assets/challenges/react-counter.jpg",
       "GitHub": "https://github.com/yourusername/react-counter",
-      "liveWebsite": "https://yourusername.github.io/react-counter/"
+      "liveWebsite": "https://yourusername.github.io/react-counter/",
+      "HTMLLink": "https://yourusername.github.io/react-counter/index.html"
     }
-]
+  ]
+  
