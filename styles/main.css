@@ -3,29 +3,14 @@
 .sp-container {
     display: flex;
     flex-direction: column;
-}
-
-/* SP CONTAINER HEADER */
-
-.sp-container-header {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-}
-
-.sp-header {
-    width: 750px;
-    font-weight: 600;
-    color: white;
-    text-align: center;
-    line-height: 45px;
-    text-transform: uppercase;
+    row-gap: 60px;
 }
 
 /* SP CONTAINER INPUT */
 
 .sp-container-input {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -66,4 +51,28 @@
 
 .sp-container-input-button:active {
     background-color: rgb(25,25,25);
+}
+
+/* SP CONTAINER HEADER */
+
+.sp-container-header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.sp-header {
+    width: 750px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+/* SR CONTAINER DIVIDER */
+
+.sp-container-divider {
+    border: 0;
+    border-top: 1px solid rgb(100,100,100);
 }
