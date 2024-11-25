@@ -175,7 +175,13 @@
     row-gap: 10px;
 }
 
+.sp-output-itself-info-divider {
+    border: 0;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
 .sp-output-itself-info-challenge-name {
+    font-size: 1.2rem;
     color: white;
     font-weight: 600;
 }
