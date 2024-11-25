@@ -7,7 +7,13 @@ const searchData = ['Flip Card','Todo List','Counter'];
 function searchFunction(e) {
     e.preventDefault();
 
-    
+    searchData.filter(data => {
+        if (searchInput.value === data) {
+            console.log('Found');
+        } else {
+            console.log('Not Found');
+        };
+    });
 };
 
 // BUTTON INITIALIZE
