@@ -99,7 +99,7 @@
 
 .sp-output {
     width: 100%;
-    padding-inline: 30px;
+    padding-inline: 20px;
 }
 
 /* SP OUTPUT INNER */
@@ -107,14 +107,18 @@
 .sp-output-inner {
     border: 1px solid rgb(100,100,100);
     padding: 20px;
-    background-color: rgb(15,15,15);
+    background-color: rgba(15, 15, 15, 0.8);
 }
 
 .sp-output-inner-header {
     color: white;
+    text-transform: uppercase;
 }
 
 /* SP OUTPUT THEMSELVES */
 
 .sp-output-themselves {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
