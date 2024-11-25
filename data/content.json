@@ -1,73 +1,102 @@
 [
     {
       "name": "Todo List",
+      "searchName": "todo list",
       "shortDescription": "A simple app to manage daily tasks with add, edit, and delete functionalities.",
       "detailedDescription": "This challenge involves creating a Todo List app where users can add tasks, edit existing ones, mark them as completed, and delete tasks. It helps practice DOM manipulation and event handling in JavaScript.",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "image": "../assets/challenges/todo-list.jpg"
+      "image": "../assets/challenges/todo-list.jpg",
+      "GitHub": "https://github.com/yourusername/todo-list",
+      "liveWebsite": "https://yourusername.github.io/todo-list/"
     },
     {
       "name": "Counter",
+      "searchName": "counter",
       "shortDescription": "A counter app to increment, decrement, and reset a numeric value.",
       "detailedDescription": "Build a counter application that displays a numeric value and allows users to increase, decrease, or reset it to its default state. This challenge emphasizes the use of JavaScript for state management.",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "image": "../assets/challenges/counter.jpg"
+      "image": "../assets/challenges/counter.jpg",
+      "GitHub": "https://github.com/yourusername/counter",
+      "liveWebsite": "https://yourusername.github.io/counter/"
     },
     {
       "name": "Calculator",
+      "searchName": "calculator",
       "shortDescription": "A basic calculator performing addition, subtraction, multiplication, and division.",
       "detailedDescription": "Develop a functional calculator where users can input numbers and perform basic arithmetic operations. This task focuses on building a user-friendly interface and handling complex JavaScript logic.",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "image": "../assets/challenges/calculator.jpg"
+      "image": "../assets/challenges/calculator.jpg",
+      "GitHub": "https://github.com/yourusername/calculator",
+      "liveWebsite": "https://yourusername.github.io/calculator/"
     },
     {
       "name": "Weather App",
+      "searchName": "weather app",
       "shortDescription": "Displays current weather conditions for a user-provided city.",
       "detailedDescription": "Create a weather app that fetches real-time weather data from an API based on user input. This challenge helps in learning API integration, asynchronous JavaScript, and handling JSON data.",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "image": "../assets/challenges/weather-app.jpg"
+      "image": "../assets/challenges/weather-app.jpg",
+      "GitHub": "https://github.com/yourusername/weather-app",
+      "liveWebsite": "https://yourusername.github.io/weather-app/"
     },
     {
       "name": "Quiz App",
+      "searchName": "quiz app",
       "shortDescription": "An interactive quiz application with multiple-choice questions.",
       "detailedDescription": "Build a quiz app with multiple-choice questions. The app should allow users to select answers, display scores at the end, and provide feedback on correct or incorrect choices. It emphasizes conditional rendering and data management.",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "image": "../assets/challenges/quiz-app.jpg"
+      "image": "../assets/challenges/quiz-app.jpg",
+      "GitHub": "https://github.com/yourusername/quiz-app",
+      "liveWebsite": "https://yourusername.github.io/quiz-app/"
     },
     {
       "name": "Portfolio Website",
+      "searchName": "portfolio website",
       "shortDescription": "A personal portfolio to showcase projects and skills.",
       "detailedDescription": "Design and develop a responsive portfolio website to showcase your skills, experiences, and projects. This project involves creative use of HTML and CSS for layout and animations.",
       "languages": ["HTML", "CSS"],
-      "image": "../assets/challenges/portfolio-website.jpg"
+      "image": "../assets/challenges/portfolio-website.jpg",
+      "GitHub": "https://github.com/yourusername/portfolio-website",
+      "liveWebsite": "https://yourusername.github.io/portfolio-website/"
     },
     {
       "name": "Clock",
+      "searchName": "clock",
       "shortDescription": "A real-time clock displaying the current time.",
       "detailedDescription": "Create a digital clock that updates every second to display the current time. This project helps in understanding time-based events and DOM updates in JavaScript.",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "image": "../assets/challenges/clock.jpg"
+      "image": "../assets/challenges/clock.jpg",
+      "GitHub": "https://github.com/yourusername/clock",
+      "liveWebsite": "https://yourusername.github.io/clock/"
     },
     {
       "name": "Random Quote Generator",
+      "searchName": "random quote generator",
       "shortDescription": "Generates a random quote on button click.",
       "detailedDescription": "Build an app that displays a random quote from a predefined set or fetched from an API. Users can click a button to see a new quote, helping in learning about randomness and event listeners.",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "image": "../assets/challenges/quote-generator.jpg"
+      "image": "../assets/challenges/quote-generator.jpg",
+      "GitHub": "https://github.com/yourusername/quote-generator",
+      "liveWebsite": "https://yourusername.github.io/quote-generator/"
     },
     {
       "name": "Image Slider",
+      "searchName": "image slider",
       "shortDescription": "A responsive image slider with navigation controls.",
       "detailedDescription": "Develop an image slider that allows users to navigate through images using arrows or dots. This project focuses on CSS transitions, JavaScript logic, and responsive design.",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "image": "../assets/challenges/image-slider.jpg"
+      "image": "../assets/challenges/image-slider.jpg",
+      "GitHub": "https://github.com/yourusername/image-slider",
+      "liveWebsite": "https://yourusername.github.io/image-slider/"
     },
     {
       "name": "React Counter",
+      "searchName": "react counter",
       "shortDescription": "A counter app built using React for managing state.",
       "detailedDescription": "This challenge involves creating a React-based counter app where state is managed using React's useState hook. The app should have buttons to increment, decrement, and reset the count value.",
       "languages": ["React", "JavaScript"],
-      "image": "../assets/challenges/react-counter.jpg"
+      "image": "../assets/challenges/react-counter.jpg",
+      "GitHub": "https://github.com/yourusername/react-counter",
+      "liveWebsite": "https://yourusername.github.io/react-counter/"
     }
 ]
-  
