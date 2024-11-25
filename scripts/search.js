@@ -7,15 +7,10 @@ const searchData = ['Flip Card','Todo List','Counter'];
 function searchFunction(e) {
     e.preventDefault();
 
-    searchData.filter(challenge => {
-        challenge.includes(searchInput.value) ? console.log('Found') : console.log('Not Found');
-    });  
+    
 };
 
 
-const result = searchData.filter(item => {
-    item.includes('Flip Card');
-});
 
 console.log(result);
 // BUTTON INITIALIZE
