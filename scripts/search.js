@@ -12,6 +12,12 @@ function searchFunction(e) {
     });  
 };
 
+
+const result = searchData.filter(item => {
+    item.includes('Flip Card');
+});
+
+console.log(result);
 // BUTTON INITIALIZE
 
 searchButton.addEventListener('click', searchFunction);
