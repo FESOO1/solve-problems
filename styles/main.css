@@ -129,12 +129,68 @@
     display: flex;
     flex-direction: column;
     text-decoration: none;
+    background-color: rgb(20,20,20);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.05);
 }
+
+/* SP OUTPUT ITSELF IMAGE */
 
 .sp-output-itself-image-container {
     width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    line-height: 0;
+    overflow: hidden;
 }
 
 .sp-output-itself-image-itself {
     width: 100%;
+    transition: scale 300ms;
+}
+
+/* SP OUTPUT ITSELF INFO */
+
+.sp-output-itself-info {
+    padding-inline: 20px;
+    padding-block: 20px 22px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.sp-output-itself-info-challenge-name {
+    color: white;
+    font-weight: 600;
+}
+
+.sp-output-itself-info-about-challenge {
+    color: white;
+    font-weight: 300;
+}
+
+/* SP OUTPUT ITSELF INFO LANGUAGES */
+
+.sp-output-itself-info-languages {
+    display: flex;
+    gap: 10px;
+}
+
+.sp-output-itself-info-language-itself {
+    color: white;
+    font-weight: 500;
+}
+
+/* SP OUTPUT ITSELF STATES HOVER */
+
+.sp-output-itself:hover {
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.sp-output-itself:hover .sp-output-itself-image-container {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.sp-output-itself:hover .sp-output-itself-image-container > .sp-output-itself-image-itself {
+    scale: 1.2;
 }
