@@ -203,6 +203,18 @@
     font-weight: 500;
 }
 
+.sp-output-itself-info-language-html {
+    color: #E34F26;
+}
+
+.sp-output-itself-info-language-html {
+    color: #1572B6;
+}
+
+.sp-output-itself-info-language-html {
+    color: #F7DF1E;
+}
+
 /* SP OUTPUT ITSELF STATES HOVER */
 
 .sp-output-itself:hover {
