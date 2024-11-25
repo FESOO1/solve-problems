@@ -137,7 +137,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 60px 20px;
+    gap: 20px;
 }
 
 /* SP OUTPUT ITSELF */
@@ -196,6 +196,7 @@
 
 .sp-output-itself-info-languages {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
