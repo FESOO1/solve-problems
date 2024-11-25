@@ -1,0 +1,21 @@
+/* SOLVE PROBLEMS CONTAINER */
+
+.sp-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* SP CONTAINER HEADER */
+
+.sp-container-header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.sp-header {
+    width: 650px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
