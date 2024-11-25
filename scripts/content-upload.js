@@ -14,6 +14,7 @@ async function uploadContentFromData() {
 
     for (let i = 0; i < contentData.length; i++) {
         const spOutputItself = document.createElement('a');
+        spOutputItself.href = contentData[i].HTMLLink;
         spOutputItself.classList.add('sp-output-itself');
         spOutputItself.innerHTML = `
             <div class="sp-output-itself-image-container">
