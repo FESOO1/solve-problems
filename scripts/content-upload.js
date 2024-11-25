@@ -12,7 +12,7 @@ async function uploadContentFromData() {
         spOutputItself.classList.add('sp-output-itself');
         spOutputItself.innerHTML = `
             <div class="sp-output-itself-image-container">
-                <img src="./assets/challenges/challenge-one.png" alt="challenge-one" class="sp-output-itself-image-itself">
+                <img src="${contentData[i].image}" alt="challenge-one" class="sp-output-itself-image-itself">
             </div>
             <div class="sp-output-itself-info">
                 <h3 class="sp-output-itself-info-challenge-name">Flip Card</h3>
