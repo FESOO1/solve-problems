@@ -23,4 +23,5 @@ body::before {
     background: url(../assets/bg.svg);
     position: absolute;
     opacity: 0.3;
+    z-index: -1;
 }
