@@ -13,7 +13,7 @@ async function uploadContentFromData() {
     const contentData = await response.json();
 
     for (let i = 0; i < contentData.length; i++) {
-        const spOutputItself = document.createElement('sp-output-itself');
+        const spOutputItself = document.createElement('a');
         spOutputItself.classList.add('sp-output-itself');
         spOutputItself.innerHTML = `
             <div class="sp-output-itself-image-container">
