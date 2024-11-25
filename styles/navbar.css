@@ -16,7 +16,7 @@ nav {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    padding-inline: 5px;
+    padding-inline: 6.5px;
 }
 
 /* NAVBAR LOGO */
@@ -78,6 +78,13 @@ nav {
 .navbar-buttons {
     display: flex;
     align-items: center;
+    column-gap: 6.5px;
+}
+
+.navbar-buttons-divider {
+    height: 75%;
+    border: 0;
+    border-left: 1px solid rgba(255,255,255,0.05);
 }
 
 /* NAVBAR THEME */
