@@ -1,7 +1,5 @@
 const spOutputThemselves = document.querySelector('.sp-output-themselves');
 
-
-
 // INITIALIZING BUTTON
 
 window.addEventListener('DOMContentLoaded', uploadContentFromData);
@@ -18,7 +16,7 @@ async function uploadContentFromData() {
         spOutputItself.classList.add('sp-output-itself');
         spOutputItself.innerHTML = `
             <div class="sp-output-itself-image-container">
-                <img src="${contentData[i].image}" alt="challenge-one" class="sp-output-itself-image-itself">
+                <img src="${contentData[i].image}" alt="challenge-one" class="sp-output-itself-image-itself ${contentData[i].searchName}">
             </div>
             <div class="sp-output-itself-info">
                 <h3 class="sp-output-itself-info-challenge-name">${contentData[i].name}</h3>
