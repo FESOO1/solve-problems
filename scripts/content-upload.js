@@ -21,7 +21,7 @@ async function uploadContentFromData() {
             </div>
             <div class="sp-output-itself-info">
                 <h3 class="sp-output-itself-info-challenge-name">${contentData[i].name}</h3>
-                <p class="sp-output-itself-info-about-challenge">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus qui voluptatibus sequi maxime, dolore eaque atque nulla odio architecto totam eligendi id, eos ducimus magni praesentium ut nemo officiis suscipit?</p>
+                <p class="sp-output-itself-info-about-challenge">${contentData[i].shortDescription}</p>
                 <hr class="sp-output-itself-info-divider">
                 <div class="sp-output-itself-info-languages">
                     <h4 class="sp-output-itself-info-language-itself sp-output-itself-info-language-html">HTML</h4>
@@ -30,5 +30,7 @@ async function uploadContentFromData() {
                 </div>
             </div>
         `;
+
+        spOutputThemselves.appendChild(spOutputItself);
     };
 };
