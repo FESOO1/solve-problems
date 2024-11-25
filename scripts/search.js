@@ -8,7 +8,7 @@ function searchFunction(e) {
     e.preventDefault();
 
     searchData.filter(data => {
-        if (searchInput.value === data) {
+        if (data.includes(searchInput.value)) {
             console.log('Found');
         } else {
             console.log('Not Found');
