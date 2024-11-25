@@ -38,3 +38,17 @@ nav {
     height: 100%;
     scale: 1.5;
 }
+
+/* NAVBAR LINKS */
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
