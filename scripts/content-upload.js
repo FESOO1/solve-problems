@@ -1,6 +1,11 @@
 const spOutputThemselves = document.querySelector('.sp-output-themselves');
 
 
+
+// INITIALIZING BUTTON
+
+window.addEventListener('DOMContentLoaded', uploadContentFromData);
+
 // DOWNLOADING CONTENT
 
 async function uploadContentFromData() {
@@ -15,7 +20,7 @@ async function uploadContentFromData() {
                 <img src="${contentData[i].image}" alt="challenge-one" class="sp-output-itself-image-itself">
             </div>
             <div class="sp-output-itself-info">
-                <h3 class="sp-output-itself-info-challenge-name">Flip Card</h3>
+                <h3 class="sp-output-itself-info-challenge-name">${contentData[i].name}</h3>
                 <p class="sp-output-itself-info-about-challenge">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus qui voluptatibus sequi maxime, dolore eaque atque nulla odio architecto totam eligendi id, eos ducimus magni praesentium ut nemo officiis suscipit?</p>
                 <hr class="sp-output-itself-info-divider">
                 <div class="sp-output-itself-info-languages">
@@ -27,7 +32,3 @@ async function uploadContentFromData() {
         `;
     };
 };
-
-// INITIALIZING BUTTON
-
-window.addEventListener('DOMContentLoaded', uploadContentFromData);
