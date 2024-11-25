@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    row-gap: 60px;
+    row-gap: 50px;
 }
 
 /* SR CONTAINER DIVIDER */
@@ -97,6 +97,25 @@
 
 */
 
-.output {
+.sp-output {
+    width: 100%;
+    padding-inline: 30px;
+}
 
+/* SP OUTPUT INNER */
+
+.sp-output-inner {
+    border: 1px solid rgb(100,100,100);
+    padding: 20px;
+}
+
+.sp-output-inner-header {
+    color: white;
+}
+
+/* SP OUTPUT THEMSELVES */
+
+.sp-output-themselves {
+    background-color: red;
+    height: 1px;
 }
