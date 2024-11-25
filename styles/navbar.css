@@ -90,6 +90,7 @@ nav {
 /* NAVBAR THEME */
 
 .navbar-theme {
+    --svg-size: 22px;
     width: 38px;
     height: 38px;
     display: flex;
@@ -102,7 +103,16 @@ nav {
 }
 
 .navbar-theme-svg {
+    width: var(--svg-size);
+    height: var(--svg-size);
     color: white;
+}
+
+.navbar-theme-svg-second {
+    width: var(--svg-size);
+    height: var(--svg-size);
+    color: white;
+    display: none;
 }
 
 .navbar-theme:hover {
@@ -117,4 +127,8 @@ nav {
 
 .navbar-theme-js > .navbar-theme-svg {
     display: none;
+}
+
+.navbar-theme-js > .navbar-theme-svg-second {
+    display: unset;
 }
