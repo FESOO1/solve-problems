@@ -122,3 +122,19 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
+
+/* SP OUTPUT ITSELF */
+
+.sp-output-itself {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.sp-output-itself-image-container {
+    width: 100%;
+}
+
+.sp-output-itself-image-itself {
+    width: 100%;
+}
