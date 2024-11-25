@@ -130,7 +130,7 @@
     flex-direction: column;
     text-decoration: none;
     background-color: rgb(20,20,20);
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
     overflow: hidden;
     border: 1px solid rgba(255,255,255,0.05);
 }
@@ -153,7 +153,7 @@
 
 .sp-output-itself-info {
     padding-inline: 20px;
-    padding-block: 20px 22px;
+    padding-block: 13px 15px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
