@@ -1,27 +1,11 @@
 /* SOLVE PROBLEMS CONTAINER */
 
 .sp-container {
-    min-height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     row-gap: 50px;
     padding-bottom: 120px;
-    position: relative;
-}
-
-.sp-container::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background: url(../assets/bg.svg) no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-    z-index: -1;
-    background-attachment: fixed;
 }
 
 /* SR CONTAINER DIVIDER */
