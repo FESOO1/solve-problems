@@ -1,4 +1,5 @@
 const spOutputThemselves = document.querySelector('.sp-output-themselves');
+const spOutputThemselvesParagraph = document.querySelector('.sp-output-themselves-paragraph');
 
 // INITIALIZING BUTTON
 
@@ -32,17 +33,20 @@ async function uploadContentFromData() {
         `;
 
         spOutputThemselves.appendChild(spOutputItself);
-
+        
         // SEARCH 
         searchInput.addEventListener('input', () => {
             if (spOutputItself.classList.contains(searchInput.value.toLowerCase())) {
+                spOutputThemselvesParagraph.style.display = 'none';
                 spOutputItself.classList.add('sp-output-itself-shown');
                 spOutputItself.classList.remove('sp-output-itself-hidden');
             } else {
                 spOutputItself.classList.remove('sp-output-itself-shown');
                 spOutputItself.classList.add('sp-output-itself-hidden');
+                spOutputThemselvesParagraph.style.display = 'flex';
             };
             if (searchInput.value.length === 0) {
+                spOutputThemselvesParagraph.style.display = 'none';
                 spOutputItself.classList.remove('sp-output-itself-shown');
                 spOutputItself.classList.remove('sp-output-itself-hidden');
             };
