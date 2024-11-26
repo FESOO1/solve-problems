@@ -33,6 +33,7 @@ async function uploadContentFromData() {
         spOutputThemselves.appendChild(spOutputItself);
         
         // SEARCH 
+
         searchInput.addEventListener('input', () => {
             if (spOutputItself.classList.contains(searchInput.value.toLowerCase())) {
                 spOutputThemselvesParagraph.style.display = 'none';
