@@ -35,8 +35,8 @@
     {
       "name": "Password Generator",
       "searchName": "password-generator",
-      "shortDescription": "A study tool for creating and reviewing flashcards.",
-      "detailedDescription": "The Flashcard App allows users to create, edit, and review customizable flashcards, making it an excellent project for learning dynamic content management. By completing this challenge, users will enhance their skills in handling user inputs, managing data locally (e.g., localStorage), and designing user-friendly interfaces. This project also improves understanding of CRUD operations and responsive web development techniques.",
+      "shortDescription": "A tool to create secure, customizable passwords.",
+      "detailedDescription": "The Password Generator helps users create strong, customizable passwords, making it a practical project for improving JavaScript skills. By building this tool, users learn about handling user inputs, random character generation, and form validation. It’s a great challenge for mastering functions, array manipulations, and enhancing the security aspect of web applications. This project also emphasizes creating intuitive and responsive interfaces.",
       "languages": ["HTML", " CSS", " JavaScript"],
       "image": "../assets/challenges/challenge-four.png",
       "GitHub": "https://github.com/FESOO1/Password-Generator",
