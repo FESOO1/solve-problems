@@ -2,11 +2,11 @@ const spOutputThemselves = document.querySelector('.sp-output-themselves');
 
 // INITIALIZING BUTTON
 
-/* window.addEventListener('DOMContentLoaded', uploadContentFromData); */
+window.addEventListener('DOMContentLoaded', uploadContentFromData);
 
 // DOWNLOADING CONTENT
 
-/* async function uploadContentFromData() {
+async function uploadContentFromData() {
     const response = await fetch('../data/content.json');
     const contentData = await response.json();
 
@@ -32,4 +32,4 @@ const spOutputThemselves = document.querySelector('.sp-output-themselves');
 
         spOutputThemselves.appendChild(spOutputItself);
     };
-}; */
+};
