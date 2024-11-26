@@ -25,9 +25,7 @@ async function uploadContentFromData() {
                 <p class="sp-output-itself-info-about-challenge">${contentData[i].shortDescription}</p>
                 <hr class="sp-output-itself-info-divider">
                 <div class="sp-output-itself-info-languages">
-                    <h4 class="sp-output-itself-info-language-itself sp-output-itself-info-language-html">HTML</h4>
-                    <h4 class="sp-output-itself-info-language-itself sp-output-itself-info-language-css">CSS</h4>
-                    <h4 class="sp-output-itself-info-language-itself sp-output-itself-info-language-javascript">JavaScript</h4>
+                    <h4 class="sp-output-itself-info-language-itself">${contentData[i].languages}</h4>
                 </div>
             </div>
         `;

@@ -190,6 +190,7 @@
     padding-block: 13px 15px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     row-gap: 10px;
 }
 
@@ -215,6 +216,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    color: white;
 }
 
 .sp-output-itself-info-language-itself {
