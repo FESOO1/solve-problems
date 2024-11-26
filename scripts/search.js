@@ -18,4 +18,4 @@ function searchFunction(e) {
 
 // BUTTON INITIALIZE
 
-/* searchButton.addEventListener('click', searchFunction); */
+searchButton.addEventListener('click', searchFunction);
