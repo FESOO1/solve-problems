@@ -51,13 +51,13 @@
     width: 700px;
     height: 50px;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr;
     background-color: rgb(15,15,15);
     border: 1px solid rgba(255,255,255,0.2);
+    padding-inline: 20px;
 }
 
 .sp-container-input-itself {
-    padding-inline: 20px;
     border: 0;
     outline: none;
     background-color: transparent;
@@ -173,7 +173,6 @@
 
 .sp-output-itself-image-container {
     width: 100%;
-    height: 100%;
     border-bottom: 1px solid rgba(255,255,255,0.05);
     line-height: 0;
     overflow: hidden;
@@ -187,7 +186,6 @@
 /* SP OUTPUT ITSELF INFO */
 
 .sp-output-itself-info {
-    height: 100%;
     padding-inline: 20px;
     padding-block: 13px 15px;
     display: flex;
@@ -249,4 +247,60 @@
 
 .sp-output-itself:hover .sp-output-itself-image-container > .sp-output-itself-image-itself {
     scale: 1.2;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1100px) {
+    .sp-output-themselves {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .sp-output-themselves {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sp-container {
+        padding-bottom: 80px;
+    }
+    .sp-container-input {
+        padding-inline: 15px;
+    }
+    .sp-container-input-inner {
+        width: 100%;
+    }
+    .sp-container-header {
+        padding-inline: 0;
+    }
+    .sp-header {
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 35px;
+    }
+    .sp-output {
+        padding-inline: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sp-output-themselves {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 400px) {
+    .sp-header {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .sp-output-inner {
+        padding: 10px;
+    }
+    .sp-output-itself-info {
+        padding-inline: 15px;
+        padding-block: 10px;
+    }
 }

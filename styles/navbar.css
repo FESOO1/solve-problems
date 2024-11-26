@@ -195,12 +195,12 @@
 /* NAVBAR DROPDOWN LINKS */
 
 .navbar-dropdown-links {
-    --blur: 5px;
+    --blur: 15px;
     position: fixed;
     bottom: 70px;
     width: calc(100% - 30px);
     padding: 5px;
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(var(--blur));
     -webkit-backdrop-filter: blur(var(--blur));
     left: 50%;
@@ -220,7 +220,7 @@
     text-decoration: none;
     color: white;
     text-align: center;
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255,255,255,0.04);
 }
 
