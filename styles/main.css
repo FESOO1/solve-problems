@@ -153,6 +153,14 @@
     border: 1px solid rgba(255,255,255,0.05);
 }
 
+.sp-output-itself-hidden {
+    display: none;
+}
+
+.sp-output-itself-shown {
+    display: flex;
+}
+
 /* SP OUTPUT ITSELF IMAGE */
 
 .sp-output-itself-image-container {

@@ -12,11 +12,12 @@ async function uploadContentFromData() {
 
     for (let i = 0; i < contentData.length; i++) {
         const spOutputItself = document.createElement('a');
-        spOutputItself.href = contentData[i].HTMLLink;
         spOutputItself.classList.add('sp-output-itself');
+        spOutputItself.classList.add(contentData[i].searchName);
+        spOutputItself.href = contentData[i].HTMLLink;
         spOutputItself.innerHTML = `
             <div class="sp-output-itself-image-container">
-                <img src="${contentData[i].image}" alt="challenge-one" class="sp-output-itself-image-itself ${contentData[i].searchName}">
+                <img src="${contentData[i].image}" alt="challenge-one" class="sp-output-itself-image-itself">
             </div>
             <div class="sp-output-itself-info">
                 <h3 class="sp-output-itself-info-challenge-name">${contentData[i].name}</h3>
@@ -31,5 +32,20 @@ async function uploadContentFromData() {
         `;
 
         spOutputThemselves.appendChild(spOutputItself);
+
+        // SEARCH 
+        searchInput.addEventListener('input', () => {
+            if (spOutputItself.classList.contains(searchInput.value.toLowerCase())) {
+                spOutputItself.classList.add('sp-output-itself-shown');
+                spOutputItself.classList.remove('sp-output-itself-hidden');
+            } else {
+                spOutputItself.classList.remove('sp-output-itself-shown');
+                spOutputItself.classList.add('sp-output-itself-hidden');
+            };
+            if (searchInput.value.length === 0) {
+                spOutputItself.classList.remove('sp-output-itself-shown');
+                spOutputItself.classList.remove('sp-output-itself-hidden');
+            };
+        });
     };
 };

@@ -1,7 +1,7 @@
 [
     {
       "name": "Todo List",
-      "searchName": "todo list",
+      "searchName": "todo-list",
       "shortDescription": "A simple app to manage daily tasks with add, edit, and delete functionalities.",
       "detailedDescription": "This challenge involves creating a Todo List app where users can add tasks, edit existing ones, mark them as completed, and delete tasks. It helps practice DOM manipulation and event handling in JavaScript.",
       "languages": ["HTML", "CSS", "JavaScript"],
