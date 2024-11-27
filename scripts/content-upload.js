@@ -5,6 +5,13 @@ const spOutputThemselvesParagraph = document.querySelector('.sp-output-themselve
 
 window.addEventListener('DOMContentLoaded', uploadContentFromData);
 
+// REGEX
+
+function removeWhiteSpace(whiteSpace) {
+    const regex = /\s/g;
+    return whiteSpace.replace(regex, '');
+};
+
 // DOWNLOADING CONTENT
 
 async function uploadContentFromData() {
@@ -14,7 +21,7 @@ async function uploadContentFromData() {
     for (let i = 0; i < contentData.length; i++) {
         const spOutputItself = document.createElement('a');
         spOutputItself.classList.add('sp-output-itself');
-        spOutputItself.classList.add(contentData[i].searchName);
+        spOutputItself.classList.add(removeWhiteSpace(contentData[i].searchName));
         spOutputItself.href = contentData[i].HTMLLink;
         spOutputItself.innerHTML = `
             <div class="sp-output-itself-image-container">
@@ -35,7 +42,7 @@ async function uploadContentFromData() {
         // SEARCH 
 
         searchInput.addEventListener('input', () => {
-            if (spOutputItself.classList.contains(searchInput.value.toLowerCase())) {
+            if (spOutputItself.classList.contains(removeWhiteSpace(searchInput.value).toLowerCase())) {
                 spOutputItself.classList.add('sp-output-itself-shown');
                 spOutputItself.classList.remove('sp-output-itself-hidden');
             } else {

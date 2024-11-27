@@ -13,7 +13,7 @@
   },
   {
     "name": "Flip Match",
-    "searchName": "flip-match",
+    "searchName": "flip match",
     "shortDescription": "A memory-matching card game with a simple and interactive design.",
     "detailedDescription": "Flip Match is a fun and interactive memory game designed to improve JavaScript logic and problem-solving skills. The challenge involves implementing game mechanics such as shuffling cards, tracking player moves, and checking for matching pairs. Users will gain hands-on experience with DOM manipulation to dynamically update the game board and display animations. This project also requires managing game state, such as resetting the game or handling end-of-game scenarios, providing an excellent opportunity to learn event-driven programming. Moreover, users will explore CSS animations and transitions to create a visually engaging user experience, while improving their ability to write clean, maintainable code.",
     "languages": ["HTML", "CSS", "JavaScript"],
@@ -37,7 +37,7 @@
   },
   {
     "name": "Password Generator",
-    "searchName": "password-generator",
+    "searchName": "password generator",
     "shortDescription": "A tool to create secure, customizable passwords.",
     "detailedDescription": "The Password Generator project is an essential tool for learning how to build practical web applications that enhance security. It involves creating an interface where users can customize their password settings, such as length and character types, to generate strong, unique passwords. This challenge focuses on implementing JavaScript functions for random character selection, ensuring the generated passwords meet user-defined criteria. Users will also work on validating input fields and providing real-time feedback to enhance usability. Additionally, the project emphasizes creating a clean and responsive design, making it an excellent exercise for improving both functionality and user experience in web development.",
     "languages": ["HTML", "CSS", "JavaScript"],
