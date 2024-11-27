@@ -5,6 +5,7 @@ const challengeDifficultyText = document.getElementById('challengeDifficultyText
 const challengeGithubLink = document.getElementById('githubLink');
 const challengeLiveLink = document.getElementById('liveLink');
 const challengeImageItself = document.querySelector('.challenge-image-itself');
+const challengeNameInTitle = document.querySelector('.challenge-name-in-title');
 
 
 // ACCESSING THE DATA FROM LOCAL STORAGE
@@ -21,6 +22,7 @@ function getDataFromLocalStorage() {
     if (challengePicture) {
         challengeImageItself.src = challengePicture;
         challengeNameText.textContent = challengeName;
+        challengeNameInTitle.textContent = challengeName.toUpperCase();
         challengeShortDescriptionText.textContent = challengeShortDescription;
         challengeDetailedDescriptionText.textContent = challengeDetailedDescription;
         challengeDifficultyText.textContent = challengeDifficulty;

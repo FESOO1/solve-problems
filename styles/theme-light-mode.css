@@ -1,0 +1,87 @@
+/* RESET */
+
+.body-js {
+    background-color: #ffffff;
+}
+
+.body-js::before {
+    background: url(../assets/bg-light.svg);
+}
+
+/* NAVBAR */
+
+.navbar-js .navbar-visible {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.navbar-js .navbar-link {
+    color: black;
+}
+
+.navbar-js .navbar-link:hover {
+    color: rgb(63, 63, 63);
+}
+
+.navbar-js .navbar-link::before {
+    background-color: black;
+}
+
+.navbar-js .navbar-theme,
+.navbar-js .navbar-menu {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-js .navbar-theme-svg-second {
+    color: black;
+}
+
+.navbar-js .navbar-menu * {
+    background-color: black;
+}
+
+.navbar-js .navbar-dropdown-links,
+.navbar-js .navbar-dropdown-link {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* HOME PAGE */
+
+.sp-container-js .sp-header {
+    color: black;
+}
+
+.sp-container-js .sp-container-input-inner {
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: rgb(255,255,255);
+}
+
+.sp-container-js .sp-container-input-itself {
+    color: black;
+}
+
+.sp-container-js .sp-output-inner {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sp-container-js .sp-output-inner-header {
+    color: black;
+}
+
+.sp-container-js .sp-output-itself {
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.sp-container-js .sp-output-itself-image-container {
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.sp-container-js .sp-output-itself-info-challenge-name,
+.sp-container-js .sp-output-itself-info-about-challenge,
+.sp-container-js .sp-output-itself-info-languages {
+    color: black;
+}
