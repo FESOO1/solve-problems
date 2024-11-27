@@ -1,5 +1,62 @@
 /* CHALLENGE CONTAINER */
 
 .challenge-container {
-    
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+/* CHALLENGE HEADER */
+
+.challenge-header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding-inline: 15px;
+}
+
+/* CHALLENGE HEADER INFORMATION */
+
+.challenge-header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.challenge-header-itself {
+    color: white;
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.challenge-header-paragraph {
+    color: white;
+    font-weight: 300;
+    width: 750px;
+    text-align: center;
+}
+
+/* CHALLENGE HEADER GRID */
+
+.challenge-header-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.challenge-header-grid-child {
+    text-align: center;
+    padding-block: 15px;
+    background-color: rgb(15,15,15);
+    text-decoration: none;
+    color: white;
+}
+
+.challenge-header-grid-child:last-of-type {
+    border-left: 1px solid rgba(255,255,255,0.1);
+}
+
+.challenge-header-grid-child:hover {
+    background-color: rgb(20,20,20);
 }
