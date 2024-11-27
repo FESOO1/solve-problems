@@ -1,5 +1,7 @@
+const searchInput = document.getElementById('searchInput');
 const spOutputThemselves = document.querySelector('.sp-output-themselves');
 const spOutputThemselvesParagraph = document.querySelector('.sp-output-themselves-paragraph');
+const challengeSearchNames = ['macbook','flip match','flashcard','password generator'];
 
 // INITIALIZING BUTTON
 
@@ -41,7 +43,7 @@ async function uploadContentFromData() {
         
         // SEARCH 
 
-        searchInput.addEventListener('input', () => {
+        /* searchInput.addEventListener('input', () => {
             if (spOutputItself.classList.contains(removeWhiteSpace(searchInput.value).toLowerCase())) {
                 spOutputItself.classList.add('sp-output-itself-shown');
                 spOutputItself.classList.remove('sp-output-itself-hidden');
@@ -53,8 +55,21 @@ async function uploadContentFromData() {
                 spOutputItself.classList.remove('sp-output-itself-shown');
                 spOutputItself.classList.remove('sp-output-itself-hidden');
             };
-        });
+        }); */
 
+        searchInput.addEventListener('input', () => {
+            challengeSearchNames.filter(searchName => {
+                if (searchName === searchInput.value) {
+                    console.log('Found');
+                    spOutputItself.classList.add('sp-output-itself-shown');
+                    spOutputItself.classList.remove('sp-output-itself-hidden');
+                } else {
+                    console.log('Not Found');
+                    spOutputItself.classList.remove('sp-output-itself-shown');
+                    spOutputItself.classList.add('sp-output-itself-hidden');
+                };
+            });
+        });
 
         // LOCAL STORAGE
 

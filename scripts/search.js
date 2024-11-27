@@ -1,4 +1,3 @@
-const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');
 
 // SEARCH FUNTION
