@@ -42,10 +42,11 @@
 
 .challenge-header-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     border: 1px solid rgba(255,255,255,0.1);
 }
 
+.challenge-header-grid-child-link,
 .challenge-header-grid-child {
     text-align: center;
     padding-block: 15px;
@@ -54,11 +55,16 @@
     color: white;
 }
 
-.challenge-header-grid-child:last-of-type {
+
+.challenge-header-grid-child-link:first-of-type {
     border-left: 1px solid rgba(255,255,255,0.1);
 }
 
-.challenge-header-grid-child:hover {
+.challenge-header-grid-child-link:last-of-type {
+    border-left: 1px solid rgba(255,255,255,0.1);
+}
+
+.challenge-header-grid-child-link:hover {
     background-color: rgb(20,20,20);
 }
 
@@ -71,4 +77,11 @@
 
 .challenge-image-itself {
     width: 100%;
+}
+
+/* CHALLENGE DETAILED INFORMATION */
+
+.challenge-detailed-info {
+    height: 22px;
+    background-color: red;
 }

@@ -1,46 +1,50 @@
 [
-    {
-      "name": "Macbook",
-      "searchName": "macbook",
-      "shortDescription": "A near-replica of the MacBook interface, showcasing apps like Photos and Notes.",
-      "detailedDescription": "This project simulates a MacBook UI using HTML, CSS, and JavaScript, complete with interactive apps like Photos, Notes, Safari, and Settings. By recreating this interface, users can improve their skills in responsive design, flexbox/grid layouts, and building interactive UI components. This challenge teaches how to manage app states, animations, and dynamic content updates, essential for creating engaging user interfaces.",
-      "languages": ["HTML", " CSS", " JavaScript"],
-      "image": "../assets/challenges/challenge-one.png",
-      "GitHub": "https://github.com/FESOO1/Macbook",
-      "liveWebsite": "https://macbook-bice.vercel.app/",
-      "HTMLLink": "../pages/show-challenge.html"
-    },
-    {
-      "name": "Flip Match",
-      "searchName": "flip-match",
-      "shortDescription": "A memory-matching card game with a simple and interactive design.",
-      "detailedDescription": "Flip Match offers an exciting way to practice JavaScript logic and event handling by building a memory game. Users flip cards to match pairs while improving their understanding of DOM manipulation, game mechanics, and animations. This challenge enhances problem-solving skills and provides hands-on experience in creating interactive, logic-driven applications.",
-      "languages": ["HTML", " CSS", " JavaScript"],
-      "image": "../assets/challenges/challenge-two.png",
-      "GitHub": "https://github.com/FESOO1/Flip-Match",
-      "liveWebsite": "https://flip-match.vercel.app/",
-      "HTMLLink": "../pages/show-challenge.html"
-    },
-    {
-      "name": "Flashcard App",
-      "searchName": "flashcard",
-      "shortDescription": "A study tool for creating and reviewing flashcards.",
-      "detailedDescription": "The Flashcard App allows users to create, edit, and review customizable flashcards, making it an excellent project for learning dynamic content management. By completing this challenge, users will enhance their skills in handling user inputs, managing data locally (e.g., localStorage), and designing user-friendly interfaces. This project also improves understanding of CRUD operations and responsive web development techniques.",
-      "languages": ["HTML", " CSS", " JavaScript"],
-      "image": "../assets/challenges/challenge-three.png",
-      "GitHub": "https://github.com/FESOO1/Flashcard-App",
-      "liveWebsite": "https://flashcard-app-delta-silk.vercel.app/",
-      "HTMLLink": "../pages/show-challenge.html"
-    },
-    {
-      "name": "Password Generator",
-      "searchName": "password-generator",
-      "shortDescription": "A tool to create secure, customizable passwords.",
-      "detailedDescription": "The Password Generator helps users create strong, customizable passwords, making it a practical project for improving JavaScript skills. By building this tool, users learn about handling user inputs, random character generation, and form validation. It’s a great challenge for mastering functions, array manipulations, and enhancing the security aspect of web applications. This project also emphasizes creating intuitive and responsive interfaces.",
-      "languages": ["HTML", " CSS", " JavaScript"],
-      "image": "../assets/challenges/challenge-four.png",
-      "GitHub": "https://github.com/FESOO1/Password-Generator",
-      "liveWebsite": "https://password-generator-eight-theta-28.vercel.app/",
-      "HTMLLink": "../pages/show-challenge.html"
-    }
+  {
+    "name": "Macbook",
+    "searchName": "macbook",
+    "shortDescription": "A near-replica of the MacBook interface, showcasing apps like Photos and Notes.",
+    "detailedDescription": "This project simulates a MacBook UI using HTML, CSS, and JavaScript, complete with interactive apps like Photos, Notes, Safari, and Settings. By recreating this interface, users can improve their skills in responsive design, flexbox/grid layouts, and building interactive UI components. This challenge teaches how to manage app states, animations, and dynamic content updates, essential for creating engaging user interfaces.",
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "image": "../assets/challenges/challenge-one.png",
+    "GitHub": "https://github.com/FESOO1/Macbook",
+    "liveWebsite": "https://macbook-bice.vercel.app/",
+    "HTMLLink": "../pages/show-challenge.html",
+    "difficulty": "Hard"
+  },
+  {
+    "name": "Flip Match",
+    "searchName": "flip-match",
+    "shortDescription": "A memory-matching card game with a simple and interactive design.",
+    "detailedDescription": "Flip Match offers an exciting way to practice JavaScript logic and event handling by building a memory game. Users flip cards to match pairs while improving their understanding of DOM manipulation, game mechanics, and animations. This challenge enhances problem-solving skills and provides hands-on experience in creating interactive, logic-driven applications.",
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "image": "../assets/challenges/challenge-two.png",
+    "GitHub": "https://github.com/FESOO1/Flip-Match",
+    "liveWebsite": "https://flip-match.vercel.app/",
+    "HTMLLink": "../pages/show-challenge.html",
+    "difficulty": "Medium"
+  },
+  {
+    "name": "Flashcard App",
+    "searchName": "flashcard",
+    "shortDescription": "A study tool for creating and reviewing flashcards.",
+    "detailedDescription": "The Flashcard App allows users to create, edit, and review customizable flashcards, making it an excellent project for learning dynamic content management. By completing this challenge, users will enhance their skills in handling user inputs, managing data locally (e.g., localStorage), and designing user-friendly interfaces. This project also improves understanding of CRUD operations and responsive web development techniques.",
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "image": "../assets/challenges/challenge-three.png",
+    "GitHub": "https://github.com/FESOO1/Flashcard-App",
+    "liveWebsite": "https://flashcard-app-delta-silk.vercel.app/",
+    "HTMLLink": "../pages/show-challenge.html",
+    "difficulty": "Medium"
+  },
+  {
+    "name": "Password Generator",
+    "searchName": "password-generator",
+    "shortDescription": "A tool to create secure, customizable passwords.",
+    "detailedDescription": "The Password Generator helps users create strong, customizable passwords, making it a practical project for improving JavaScript skills. By building this tool, users learn about handling user inputs, random character generation, and form validation. It’s a great challenge for mastering functions, array manipulations, and enhancing the security aspect of web applications. This project also emphasizes creating intuitive and responsive interfaces.",
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "image": "../assets/challenges/challenge-four.png",
+    "GitHub": "https://github.com/FESOO1/Password-Generator",
+    "liveWebsite": "https://password-generator-eight-theta-28.vercel.app/",
+    "HTMLLink": "../pages/show-challenge.html",
+    "difficulty": "Easy"
+  }
 ]
