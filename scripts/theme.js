@@ -41,6 +41,10 @@ function checkTheLocalStorageForTheme() {
 
     if (spTheme === 'true') {
         navbarThemeButton.classList.add('navbar-theme-js');
+        homeSpContainer.classList.add('sp-container-js');
+        navbarLogo.src = '../assets/logo-dark.png';
+        navbarItself.classList.add('navbar-js');
+        body.classList.add('body-js');
         
         isLightModeOn = true;
     };
