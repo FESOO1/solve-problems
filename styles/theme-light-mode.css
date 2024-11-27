@@ -50,38 +50,38 @@
 
 /* HOME PAGE */
 
-.sp-container-js .sp-header {
+.body-js .sp-header {
     color: black;
 }
 
-.sp-container-js .sp-container-input-inner {
+.body-js .sp-container-input-inner {
     border: 1px solid rgba(0,0,0,0.1);
     background-color: rgb(255,255,255);
 }
 
-.sp-container-js .sp-container-input-itself {
+.body-js .sp-container-input-itself {
     color: black;
 }
 
-.sp-container-js .sp-output-inner {
+.body-js .sp-output-inner {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.sp-container-js .sp-output-inner-header {
+.body-js .sp-output-inner-header {
     color: black;
 }
 
-.sp-container-js .sp-output-itself {
+.body-js .sp-output-itself {
     border: 1px solid rgba(0,0,0,0.2);
     background-color: white;
 }
 
-.sp-container-js .sp-output-itself-image-container {
+.body-js .sp-output-itself-image-container {
     border: 1px solid rgba(0,0,0,0.1);
 }
 
-.sp-container-js .sp-output-itself-info-challenge-name,
-.sp-container-js .sp-output-itself-info-about-challenge,
-.sp-container-js .sp-output-itself-info-languages {
+.body-js .sp-output-itself-info-challenge-name,
+.body-js .sp-output-itself-info-about-challenge,
+.body-js .sp-output-itself-info-languages {
     color: black;
 }
