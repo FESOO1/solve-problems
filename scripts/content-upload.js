@@ -47,5 +47,18 @@ async function uploadContentFromData() {
                 spOutputItself.classList.remove('sp-output-itself-hidden');
             };
         });
+
+
+        // LOCAL STORAGE
+
+        spOutputItself.addEventListener('click', () => {
+            localStorage.setItem('challengePicture', contentData[i].image);
+            localStorage.setItem('challengeName', contentData[i].name);
+            localStorage.setItem('challengeShortDescription', contentData[i].shortDescription);
+            localStorage.setItem('challengeDetailedDescription', contentData[i].detailedDescription);
+            localStorage.setItem('challengeDifficulty', contentData[i].difficulty);
+            localStorage.setItem('challengeGitHub', contentData[i].GitHub);
+            localStorage.setItem('challengeliveWebsite', contentData[i].liveWebsite);
+        });
     };
 };
