@@ -5,6 +5,8 @@
     flex-direction: column;
     padding-top: 100px;
     padding-bottom: 120px;
+    padding-inline: 15px;
+    row-gap: 25px;
 }
 
 /* CHALLENGE HEADER */
@@ -13,7 +15,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 50px;
-    padding-inline: 15px;
 }
 
 /* CHALLENGE HEADER INFORMATION */
@@ -59,4 +60,14 @@
 
 .challenge-header-grid-child:hover {
     background-color: rgb(20,20,20);
+}
+
+/* CHALLENGE IMAGE */
+
+.challenge-image {
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.challenge-image-itself {
+    width: 100%;
 }
