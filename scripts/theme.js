@@ -11,17 +11,14 @@ let isLightModeOn = false;
 function toggleTheme() {
     if (isLightModeOn === false) {
         navbarThemeButton.classList.add('navbar-theme-js');
-        /* homeSpContainer.classList.add('sp-container-js'); */
         navbarLogo.src = '../assets/logo-dark.png';
         navbarItself.classList.add('navbar-js');
-        /* navbarChallenge.classList.add(''); */
         body.classList.add('body-js');
         
         isLightModeOn = true;
         localStorage.setItem('spTheme', isLightModeOn);
     } else {
         navbarThemeButton.classList.remove('navbar-theme-js');
-        /* homeSpContainer.classList.remove('sp-container-js'); */
         navbarLogo.src = '../assets/logo-light.png';
         navbarItself.classList.remove('navbar-js');
         body.classList.remove('body-js');
@@ -43,12 +40,18 @@ function checkTheLocalStorageForTheme() {
 
     if (spTheme === 'true') {
         navbarThemeButton.classList.add('navbar-theme-js');
-        /* homeSpContainer.classList.add('sp-container-js'); */
         navbarLogo.src = '../assets/logo-dark.png';
         navbarItself.classList.add('navbar-js');
         body.classList.add('body-js');
         
         isLightModeOn = true;
+    } else {
+        navbarThemeButton.classList.remove('navbar-theme-js');
+        navbarLogo.src = '../assets/logo-light.png';
+        navbarItself.classList.remove('navbar-js');
+        body.classList.remove('body-js');
+        
+        isLightModeOn = false;
     };
 };
 

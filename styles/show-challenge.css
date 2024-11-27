@@ -33,7 +33,7 @@
 
 .challenge-header-paragraph {
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     width: 750px;
     text-align: center;
     line-height: 28px;
@@ -118,11 +118,7 @@
     .challenge-header-grid {
         grid-template-columns: 1fr;
     }
-    .challenge-header-grid-child-link:first-of-type {
-        border-left: 0;
-        border-top: 1px solid rgba(255,255,255,0.1);
-    }
-    
+    .challenge-header-grid-child-link:first-of-type,
     .challenge-header-grid-child-link:last-of-type {
         border-left: 0;
         border-top: 1px solid rgba(255,255,255,0.1);

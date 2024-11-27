@@ -88,5 +88,44 @@
 
 /* SHOW CHALLENGE */
 
-/* .body-js {
-} */
+.body-js .challenge-header-itself,
+.body-js .challenge-header-paragraph,
+.body-js .challenge-detailed-info-subheader,
+.body-js .challenge-detailed-info-paragraph {
+    color: black;
+}
+
+.body-js .challenge-header-grid,
+.body-js .challenge-image {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.body-js .challenge-header-grid-child,
+.body-js .challenge-header-grid-child-link {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.body-js .challenge-header-grid-child-link:first-of-type,
+.body-js .challenge-header-grid-child-link:last-of-type {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.body-js .challenge-header-grid-child-link:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.body-js .challenge-detailed-info {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+    .body-js .challenge-header-grid-child-link:first-of-type,
+    .body-js .challenge-header-grid-child-link:last-of-type {
+        border-left: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
